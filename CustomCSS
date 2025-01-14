@@ -1,0 +1,39 @@
+:root {
+  /* Application-wide background, app-wide text color, app-wide font, app-wide text transform */
+  --ts-var-root-background: #FFF5E1; /* Sand */
+  --ts-var-root-color: #FF4500; /* Tropical orange */
+  --ts-var-root-font-family: Roboto,Helvetica,Arial,sans-serif;
+  --ts-var-root-text-transform: initial;
+
+  /* Top navigation panel */
+  --ts-var-nav-color: #FFFAF0;
+  --ts-var-nav-background: linear-gradient(to right, #FF7E5F, #FD3A69); /* Sunset gradient */
+  --ts-var-search-data-button-background: #FFDAC1; /* Soft beach peach */
+  --ts-var-search-data-button-font-color: var(--ts-var-root-color);
+
+  /* Search bar, search navigation, and auto-suggestion panels */
+  --ts-var-search-bar-background: #ADE8F4; /* Aqua blue */
+  --ts-var-search-auto-complete-background: #BDE4F4; /* Lighter aqua */
+  --ts-var-search-bar-auto-complete-hover-background: #76C7C0; /* Deep teal */
+  --ts-var-search-auto-complete-font-color: #1D232F;
+
+  /* Buttons */
+  --ts-var-button--primary-background: #008080; /* Teal */
+  --ts-var-button--primary--hover-background: #005F5F; /* Darker teal */
+  --ts-var-button--secondary-background: #FFD700; /* Golden yellow */
+  --ts-var-button--secondary--hover-background: #FFA500; /* Orange gold */
+
+  /* Liveboard */
+  --ts-var-liveboard-cross-filter-layout-background: #FFF8E7; /* Seashell */
+  --ts-var-liveboard-edit-bar-background: #FF6F61; /* Coral red */
+
+  /* Visualizations and answers */
+  --ts-var-viz-background: #FFEBCD; /* Blanched Almond */
+  --ts-var-viz-title-color: #FF4500; /* Tropical orange */
+  --ts-var-viz-description-color: #DAA520; /* Goldenrod */
+  --ts-var-viz-legend-hover-background: #FFDAB9; /* Peach puff */
+
+  /* Menu components */
+  --ts-var-menu-background: #F0E68C; /* Khaki */
+  --ts-var-menu--hover-background: #FFD700; /* Bright gold */
+}
